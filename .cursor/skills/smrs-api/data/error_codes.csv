@@ -1,0 +1,19 @@
+Error Code,Category,Message,HTTP Status,Recovery Action
+E001,Generic,Đã xảy ra lỗi. Vui lòng thử lại.,500,Retry with exponential backoff
+E002,Validation,Dữ liệu đầu vào không hợp lệ.,400,Validate and resubmit
+E003,Not Found,Không tìm thấy tài nguyên.,404,Check resource ID
+E004,Unauthorized,Yêu cầu xác thực.,401,Login and retry
+E005,Forbidden,Bạn không có quyền thực hiện thao tác này.,403,Request permission
+E006,Missing Input,Vui lòng nhập {field}.,400,Provide required field
+E007,Invalid Code,Mã xác thực không hợp lệ.,400,Request new code
+E008,Expired Token,Mã xác thực đã hết hạn. Vui lòng gửi lại mã mới.,400,Request new code
+E009,Invalid Credentials,Thông tin đăng nhập không chính xác.,401,Check credentials
+E010,Account Locked,Tài khoản đã bị khóa.,403,Contact administrator
+E011,Duplicate Entry,Bản ghi đã tồn tại.,409,Use existing record
+E012,Concurrent Update,Dữ liệu đã được cập nhật bởi người khác.,409,Refresh and retry
+E013,Rate Limited,Bạn đã thực hiện quá nhiều yêu cầu.,429,Wait and retry
+E014,Invalid Date,Ngày không hợp lệ.,400,Check date format
+E015,Date Conflict,Lịch đã có người đặt.,409,Choose different time
+E016,Room Unavailable,Phòng không khả dụng.,409,Select another room
+E017,Capacity Exceeded,Số người tham gia vượt quá sức chứa.,400,Reduce attendees
+E018,Past Date,Không thể đặt phòng cho ngày trong quá khứ.,400,Select future date

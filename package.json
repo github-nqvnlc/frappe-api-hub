@@ -1,0 +1,17 @@
+{
+  "name": "api_hub",
+  "version": "1.0.0",
+  "description": "Trung t\u00e2m t\u1eadp h\u1ee3p c\u00e1c API trong d\u1ef1 \u00e1n",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd dashboard-api-hub && yarn install",
+    "dev": "cd dashboard-api-hub && yarn dev",
+    "build": "cd dashboard-api-hub && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

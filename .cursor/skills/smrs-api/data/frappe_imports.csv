@@ -1,0 +1,17 @@
+Import,Module,Usage
+frappe,frappe,Core framework
+frappe.auth.LoginManager,frappe.auth,User authentication
+frappe.utils,frappe.utils,Date/time utilities
+frappe.db,frappe.db,Database operations
+frappe.get_doc,frappe,Get document by name
+frappe.get_list,frappe,Get list of documents
+frappe.get_value,frappe,Get single field value
+frappe.db.exists,frappe.db,Check document exists
+frappe.db.count,frappe.db,Count documents
+frappe.db.get_all,frappe.db,Get all matching docs
+frappe.log_error,frappe,Log error to error log
+frappe.throw,frappe,Raise validation error
+frappe.session,frappe.session,Current session info
+frappe.user,frappe,Current user
+frappe.request,frappe.request,Request data
+datetime.timedelta,datetime,Time calculations

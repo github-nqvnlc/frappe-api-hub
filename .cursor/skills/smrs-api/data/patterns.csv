@@ -1,0 +1,7 @@
+Pattern Name,File Location,Endpoint Pattern,Description,Example Usage
+Login API,smrs/api/auth/login.py,/api/method/smrs.api.auth.login.login,Frappe LoginManager with session creation,New user authentication
+Logout API,smrs/api/auth/logout.py,/api/method/smrs.api.auth.logout.logout,Session cleanup,User logout
+Forgot Password,smrs/api/auth/forgot_password.py,/api/method/smrs.api.auth.forgot_password.forgot_password,Send reset code to email,Password reset flow step 1
+Verify Code,smrs/api/auth/verify_code.py,/api/method/smrs.api.auth.verify_code.verify_reset_code,Validate 6-digit code,Password reset flow step 2
+Session Check,smrs/api/auth/session.py,/api/method/smrs.api.auth.session.get_session,Get current user session,Session validation
+Generic List,smrs/api/utils.py,/api/method/smrs.api.utils.get_paginated_list,Paginated list with search,Paginated queries
